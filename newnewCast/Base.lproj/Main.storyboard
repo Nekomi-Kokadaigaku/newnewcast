@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23727"/>
         <plugIn identifier="com.apple.WebKit2IBPlugin" version="23727"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -663,7 +662,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Newcast" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="newnewCast" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -717,7 +716,7 @@
         <!--PodcastVC-->
         <scene sceneID="nGg-XI-diN">
             <objects>
-                <viewController id="UAx-cJ-4Oq" customClass="PodcastVC" customModule="Newcast" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UAx-cJ-4Oq" customClass="PodcastVC" customModule="newnewCast" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="d1b-bf-kXE">
                         <rect key="frame" x="0.0" y="0.0" width="413" height="700"/>
                         <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
@@ -844,7 +843,7 @@
         <!--Podcast SearchVC-->
         <scene sceneID="LHc-dr-cCd">
             <objects>
-                <viewController storyboardIdentifier="PodcastSearchVC" id="bfv-0S-z8C" customClass="PodcastSearchVC" customModule="Newcast" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PodcastSearchVC" id="bfv-0S-z8C" customClass="PodcastSearchVC" customModule="newnewCast" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="lbB-A7-fyR">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1017,7 +1016,7 @@ Gw
         <!--Episode InfoVC-->
         <scene sceneID="ou7-e5-ufS">
             <objects>
-                <viewController storyboardIdentifier="EpisodeInfoVC" id="8kv-iq-eo9" customClass="EpisodeInfoVC" customModule="Newcast" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EpisodeInfoVC" id="8kv-iq-eo9" customClass="EpisodeInfoVC" customModule="newnewCast" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="3Hs-kL-ozG">
                         <rect key="frame" x="0.0" y="0.0" width="300" height="478"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1125,7 +1124,7 @@ Gw
         <!--Podcast DescriptionVC-->
         <scene sceneID="f6r-lC-El0">
             <objects>
-                <viewController storyboardIdentifier="PodcastDescriptionVC" id="h5F-16-huJ" customClass="PodcastDescriptionVC" customModule="Newcast" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PodcastDescriptionVC" id="h5F-16-huJ" customClass="PodcastDescriptionVC" customModule="newnewCast" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="Zme-3f-5Ju">
                         <rect key="frame" x="0.0" y="0.0" width="547" height="140"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1187,7 +1186,7 @@ Gw
         <!--Status BarVC-->
         <scene sceneID="YIL-go-Do8">
             <objects>
-                <viewController identifier="StatusBarVC" storyboardIdentifier="StatusBarVC" id="sAj-L5-aN6" customClass="StatusBarVC" customModule="Newcast" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController identifier="StatusBarVC" storyboardIdentifier="StatusBarVC" id="sAj-L5-aN6" customClass="StatusBarVC" customModule="newnewCast" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="to6-vj-Ml0">
                         <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1248,18 +1247,18 @@ Gw
                                             <action selector="skip30BehindClicked:" target="sAj-L5-aN6" id="PTZ-tK-utA"/>
                                         </connections>
                                     </button>
-                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YJO-uu-anM" customClass="ScrollingTextView" customModule="Newcast" customModuleProvider="target">
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YJO-uu-anM" customClass="ScrollingTextView" customModule="newnewCast" customModuleProvider="target">
                                         <rect key="frame" x="27" y="204" width="246" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     </customView>
-                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BMV-mX-bVv" customClass="ScrollingTextView" customModule="Newcast" customModuleProvider="target">
+                                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BMV-mX-bVv" customClass="ScrollingTextView" customModule="newnewCast" customModuleProvider="target">
                                         <rect key="frame" x="27" y="58" width="246" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     </customView>
                                     <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AXX-HQ-sAY">
                                         <rect key="frame" x="27" y="104" width="246" height="15"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <sliderCell key="cell" controlSize="small" state="on" alignment="left" maxValue="100" tickMarkPosition="above" sliderType="linear" id="T66-LZ-94K" customClass="MenuBarPlayerSliderCell" customModule="Newcast" customModuleProvider="target"/>
+                                        <sliderCell key="cell" controlSize="small" state="on" alignment="left" maxValue="100" tickMarkPosition="above" sliderType="linear" id="T66-LZ-94K" customClass="MenuBarPlayerSliderCell" customModule="newnewCast" customModuleProvider="target"/>
                                         <connections>
                                             <action selector="musicSliderPositionChanged:" target="sAj-L5-aN6" id="DPD-94-Sxn"/>
                                         </connections>
@@ -1366,7 +1365,7 @@ Gw
         <!--AlertVC-->
         <scene sceneID="5iB-vB-CvD">
             <objects>
-                <viewController id="hMV-BA-99h" customClass="AlertVC" customModule="Newcast" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hMV-BA-99h" customClass="AlertVC" customModule="newnewCast" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="Wzj-cc-Yak">
                         <rect key="frame" x="0.0" y="0.0" width="303" height="40"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1399,7 +1398,7 @@ Gw
         <!--DetailVC-->
         <scene sceneID="L0i-n2-T8u">
             <objects>
-                <viewController id="oai-QY-2Tg" customClass="DetailVC" customModule="Newcast" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oai-QY-2Tg" customClass="DetailVC" customModule="newnewCast" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="HiG-Zd-ZTe">
                         <rect key="frame" x="0.0" y="0.0" width="700" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1422,7 +1421,7 @@ Gw
                                     </imageView>
                                     <slider verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Kne-bz-9xP">
                                         <rect key="frame" x="146" y="42" width="548" height="23"/>
-                                        <sliderCell key="cell" state="on" alignment="left" maxValue="100" tickMarkPosition="above" sliderType="linear" id="XdZ-WJ-IBU" customClass="CustomSliderCell" customModule="Newcast" customModuleProvider="target"/>
+                                        <sliderCell key="cell" state="on" alignment="left" maxValue="100" tickMarkPosition="above" sliderType="linear" id="XdZ-WJ-IBU" customClass="CustomSliderCell" customModule="newnewCast" customModuleProvider="target"/>
                                         <connections>
                                             <action selector="musicSliderPositionChanged:" target="oai-QY-2Tg" id="JUR-t8-tWb"/>
                                         </connections>
@@ -1555,7 +1554,7 @@ Gw
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="oB3-PF-xDg" customClass="ScrollingTextView" customModule="Newcast" customModuleProvider="target">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="oB3-PF-xDg" customClass="ScrollingTextView" customModule="newnewCast" customModuleProvider="target">
                                 <rect key="frame" x="153" y="566" width="538" height="27"/>
                             </customView>
                         </subviews>
